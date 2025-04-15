@@ -34,7 +34,7 @@ func main() {
 		fmt.Printf("Error while gathering info for %s \n", filePath)
 		os.Exit(1)
 	}
-
+	fmt.Print("\033[1;92mPFAnalyzer2 Made by KernelCore for https://discord.gg/ssita\033[0m\n\n")
 	// Process single file or directory
 	if info.IsDir() {
 		// Process all .pf files in directory
